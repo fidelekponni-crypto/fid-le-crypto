@@ -1,0 +1,32 @@
+form {
+display: flex;
+flex-direction: column;
+margin: auto;
+width: 50%;
+}
+.contener {
+    display: flex;
+    flex-direction: row;
+    width: 500px
+}
+
+input {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+@media screen and (max-widh:1280px ) {
+    p {
+        color: deeppink;
+    }
+}
+    
+@media screen and (max-width: 968px) {
+    .contener {
+        flex-direction: column;
+    }
+}
+
+p {
+    overflow: scroll;
+}
